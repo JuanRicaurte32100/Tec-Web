@@ -1,0 +1,114 @@
+/* Estilos para la sección de Impacto de las Tecnologías Web en los Negocios */
+.impacto-negocios {
+    background-color: #D8EFD3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.impacto-negocios h2 {
+    color: #333;
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el bloque de Comercio Electrónico */
+.bloque-comercio-electronico {
+    background-color: #95D2B3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bloque-comercio-electronico img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.bloque-comercio-electronico article {
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Estilos para el bloque de Marketing Digital */
+.bloque-marketing-digital {
+    background-color: #ccef8a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bloque-marketing-digital img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.bloque-marketing-digital article {
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Estilos para la sección de Comparativa de Precios en la Web */
+.price-comparison-section {
+    background-color: #B3E2A7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.price-comparison-section h2 {
+    color: #333;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la comparativa de precios */
+.price-comparison {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product {
+    background-color: #C8CFA0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product li {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 5px;
+}

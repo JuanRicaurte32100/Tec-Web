@@ -1,0 +1,79 @@
+.futuro-tecnologias {
+    background-color: #CDE8E5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.futuro-tecnologias h2 {
+    color: #333;
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+
+.articulo-inteligencia-artificial {
+    display: flex;
+    align-items: flex-start;
+    background-color: #EEF7FF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.articulo-inteligencia-artificial article {
+    flex: 1;
+    color: #333;
+    margin-right: 20px;
+    max-width: 70%;
+}
+
+.articulo-inteligencia-artificial img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contenedor-bloques {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.articulo-iot {
+    background-color: #7AB2B2;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex: 1;
+    max-width: 48%;
+    color: #000;
+}
+
+.articulo-iot img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.video-recomendado {
+    background-color: #4D869C;
+    padding: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex: 1;
+    max-width: 48%;
+    color: #000;
+}
+
+.video-recomendado iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}

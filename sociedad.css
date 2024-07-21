@@ -1,0 +1,185 @@
+/* Estilo para los encabezados en secciones */
+main section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la sección de impacto */
+main section .impacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+/* Estilo para los bloques de impacto */
+.bloque-impacto {
+    background-color: #9AD0C2 !important;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para el texto dentro de los bloques de impacto */
+main section .impacto .texto {
+    flex: 1;
+    text-align: left;
+}
+
+main section .impacto .texto h3 {
+    font-size: 1.5rem;
+    color: #35424a;
+    margin-bottom: 10px;
+}
+
+main section .impacto .texto p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las imágenes dentro de los bloques de impacto */
+main section .impacto .imagen {
+    flex: 1;
+    text-align: center;
+}
+
+main section .impacto .imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la sección de cambio en la educación */
+main section .cambio-educacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+main section .cambio-educacion .texto {
+    flex: 1;
+    text-align: right;
+}
+
+main section .cambio-educacion .texto h3 {
+    font-size: 1.5rem;
+    color: #35424a;
+    margin-bottom: 10px;
+}
+
+main section .cambio-educacion .texto p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las imágenes en la sección de cambio en la educación */
+main section .cambio-educacion .imagen {
+    flex: 1;
+    text-align: center;
+    order: -1;
+}
+
+main section .cambio-educacion .imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los bloques de impacto con imágenes fijas */
+.impacto, .educacion {
+    margin: 0;
+    padding: 0;
+}
+
+.bloque-impacto h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.bloque-impacto .imagen img {
+    width: 700px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las imágenes flotantes en las secciones de impacto y educación */
+.impacto .imagen img {
+    float: left;
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.educacion .imagen img {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+/* Estilo para el texto dentro de los bloques de impacto */
+.bloque-impacto .texto {
+    text-align: left;
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la tabla de datos */
+section {
+    margin: 50px;
+}
+
+.titulo-tabla {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.bloque-tabla {
+    background-color: #C6DCBA;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bloque-tabla table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.bloque-tabla th, .bloque-tabla td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #b9b2b2;
+    color: #333;
+}
+
+.bloque-tabla th {
+    background-color: #eedea0;
+    font-weight: bold;
+}
+
+.bloque-tabla tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.bloque-tabla tbody tr:hover {
+    background-color: #cec4bc;
+}
